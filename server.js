@@ -2,15 +2,15 @@
 var WebSocketServer = require('websocket').server;
 var http = require('http');
 const readline = require('readline-sync');
-
+let port = 8080;
 
 var server = http.createServer(function(request, response) {
     console.log('Received request for ' + request.url);
     response.writeHead(404);
     response.end();
 });
-server.listen(8080, function() {
-    console.log('Server is listening on port 8080');
+server.listen(port, function() {
+    console.log('Server is listening on port ' + port);
 });
 
 wsServer = new WebSocketServer({
