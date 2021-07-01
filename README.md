@@ -1,7 +1,7 @@
 
 # Reverse shell using websocket (node)
 
-NodeJS reverse shell script using websocket npm to interact between client & server. 
+NodeJS reverse shell script using websocket npm to interact between client & server. Educational purpose only.
 
 ## Installation
 
